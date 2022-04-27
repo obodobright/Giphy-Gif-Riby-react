@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.wrapper {
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.a-link {
+    font-size: 30px;
+    color: cadetblue;
+}
